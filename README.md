@@ -38,7 +38,7 @@ Si l’utilisateur demande de barrer, le moteur se déplace jusqu’à la positi
 
 ![Image](https://github.com/user-attachments/assets/24524ce0-8e80-43aa-b365-73988ba82755)
 
-2- Écrire un programme sur le PIC qui affiche sur le LCD
+2- Écrire un programme sur le PIC qui affiche sur le LCD:
 - La durée de pulse haute
 - La période
 - La densité de flux magnétique mesurée ainsi que sa polarité.
