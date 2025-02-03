@@ -25,26 +25,23 @@
 Si l’utilisateur demande de débarrer, le moteur se déplace jusqu’à la position moins 90 degrés.
 Si l’utilisateur demande de barrer, le moteur se déplace jusqu’à la position plus 90 degrés.
 
-## Partie B : Mesure de l’accélération
+## Partie B : Mesure de la position
 
 ### Préparation
-- Lecture de la fiche technique du ADXL202
-- Schéma de branchement (PIC, ADXL et potentiomètre)
+- Lecture de la fiche technique du DRV5057
+- Schéma de branchement (PIC et DRV5057A1)
 - Sélectionner les valeurs de départ des registres nécessaires au bon fonctionnement du module input capture.
 
 ### Manipulations
 
-1- Monter l’accéléromètre et le LCD sur le PIC
-L’ADXL202 est monté sur une mini-carte :
+1- Monter le DRV5057A1 et le LCD sur le PIC, ajouter les autres composants requis.
 
-![image](https://github.com/max848484/243-421-H24_TP2/assets/156249332/0b387d02-620c-468e-b7bc-d1a52b631311)
+![image]
 
-Installer cette carte en plaçant :
-- Alimentation = 5 V et un condensateur de découplage de 0,1 µF
-- Rset = 125 kΩ
-- Cx et Cy = 0, 01 µF
-
-2- Écrire un programme sur le PIC qui affiche la durée de pulse haute, la période et l’accélération pour chacun des 2 axes, sur l’écran LCD.
+2- Écrire un programme sur le PIC qui affiche sur le LCD
+- La durée de pulse haute
+- La période
+- La densité de flux magnétique mesurée ainsi que sa polarité.
 
 ## Évaluation
 ### Faire vérifier
